@@ -28,13 +28,21 @@ var triviaQuestions = [{
     answerOptions:["The Hound","The Beast","The Warrior","Bunny"],
     answer:[0]
 },{
-    question: "",
-    answerOptions:["1","2","3","4"],
+    question: "What are the people north of the wall called?",
+    answerOptions:["Wildlings","Walkings","Weirdos","Winters"],
     answer:[0]
 },{
-    question: "...",
-    answerOptions:["1","2","3","4"],
+    question: "Which one of Daenerys' dragons does the Night King kill?",
+    answerOptions:["Drogon","Viserion","Komodo","Rhaegal"],
     answer:[1]
+},{
+    question: "Who killed Stansa's direwolf Lady?",
+    answerOptions:["Joffrey Baratheon","Cersei Lannister","Jon Snow","Ned Stark"],
+    answer:[3]
+},{
+    question: "During which battle did Ramsay Bolton kill Rickon Stark?",
+    answerOptions:["Battle of Blackwater","Battle at Castle Black","Battle of Bastards","Seige of Meereen"],
+    answer:[2]
 }];
 
 var currentQuestion;
@@ -153,14 +161,12 @@ function Solution(){
 }
 
 
-console.log(quizScore);
-
 function quizResult(){
     $("#timer").empty();
     $("#rightAnswer").empty();
     $("#playerResult").empty();
     var totalQuestions = triviaQuestions.length;
-    var quizScore = (rightAnswer/8) * 100;
+    var quizScore = (rightAnswer/10) * 100;
     if(rightAnswer == totalQuestions){
         $("#message").html("You are the one true King of The North")
     }

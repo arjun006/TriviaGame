@@ -2,7 +2,7 @@
     background-image: url(../images/background-img.png);
     background-size:100%;
     font-family: 'Cinzel Decorative', cursive;
-    color:rgb(216, 216, 193);
+    color:rgb(216, 216, 193)
     
 }
 
@@ -23,11 +23,7 @@ button{
     margin-top:47px;
     margin-left:38%;
 }
-.question{
-    color: black;
-    margin:auto;
-    padding:5px;
-}
+
 
 .scorecard{
     text-align: center;
@@ -48,4 +44,21 @@ h5{
     text-align: center;
     font-weight: bold;
 }
+.currentChoice{
+    font-size:22px;
+    text-align:left;
+}
 
+h3{
+    color:black;
+    font-size:30px;
+    font-weight:bold;
+}
+#currentQuestion{
+    color:black;
+    font-weight:bolder;
+}
+.currentChoice:hover{
+    background-color:rgb(71, 70, 65);
+    width:30%;
+}
