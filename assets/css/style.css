@@ -1,0 +1,51 @@
+.bg-style{
+    background-image: url(../images/background-img.png);
+    background-size:100%;
+    font-family: 'Cinzel Decorative', cursive;
+    color:rgb(216, 216, 193);
+    
+}
+
+h1{
+    color:rgb(216, 216, 193);
+    font-size: 50px;
+    font:bold; 
+    text-align: center;
+    margin:auto;
+    padding-top:20px;
+}
+
+button{
+    margin:auto;
+    margin-top:5%;
+}
+#playAgainButton{
+    margin-top:47px;
+    margin-left:38%;
+}
+.question{
+    color: black;
+    margin:auto;
+    padding:5px;
+}
+
+.scorecard{
+    text-align: center;
+    font-size: 25px;
+}
+
+h5{
+    font-size: 30px;
+    text-align: center;
+    margin-top:20%;
+    color:rgb(92, 19, 19);
+    font-weight: bold;
+}
+#playerResult{
+    font-size:30px;
+    margin:auto;
+    margin-top:18%;
+    text-align: center;
+    font-weight: bold;
+}
+

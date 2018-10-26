@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Game of Thrones Trivia!</title>
+        <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="assets/javascript/app.js"></script> 
+    </head>
+    <body class="bg-style">
+        <div class="container">
+            <div class="row">
+                <h1>Game of Thrones Trivia</h1>   
+            </div>
+            <div class="instructions">
+                <h5>Beware spoilers lie ahead<br>Click "Play" to begin...</h5>
+            </div>
+            <div class="row">
+                <button type="button" class="btn btn-primary btn-lg btn-outline-light" id="start-button">Play!</button>
+            </div>
+            
+            <!--Questions-->
+            <div id="timer"></div>
+            <h2><div id="currentQuestion" ></div></h2>
+            <div class="row"></div>
+            <div class="question row"></div>
+            <div class="answers"></div>
+            
+            
+            <!--Answer-->
+            <div id="playerResult"></div>
+            <div id="rightAnswer"></div>
+            <div id="image"></div>
+            <!--End Page-->
+            <div id="finalResult" class="scorecard"></div>
+            <div id="message" class="scorecard"></div>
+            <div id="correctAnswers" class="scorecard"></div>
+            <div id="wrongAnswers" class="scorecard"></div>
+            <div id="unaswered" class="scorecard"></div>
+            <div id="playAgainButton"></div>
+        </div>
+
+    </body>
+</html>
