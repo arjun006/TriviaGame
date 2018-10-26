@@ -62,3 +62,7 @@ h3{
     background-color:rgb(71, 70, 65);
     width:30%;
 }
+
+#rightAnswer{
+    text-align: center; 
+}
