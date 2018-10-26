@@ -47,7 +47,6 @@ $(document).ready(function(){
     
     var currentQuestion;
     var totalQuestions= triviaQuestions.length;
-    
     var rightAnswer;
     var wrongAnswer;
     var unanswered;
